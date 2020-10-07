@@ -11,6 +11,8 @@ Lewsey JD, et al. A cardiovascular disease policy model that predicts life expec
 
 Contributors:
 
-Yiqiao Xin (speaker) 1, Ewan Gray 2, Jose Antonio Robles-Zurita 1, Houra Haghpanahan 1, Robert Heggie 1, Ciaran Kohli-Lynch 1, Andrew Briggs 3, David McAllister 4, Kenny Lawson 5, Jim Lewsey 1
+Yiqiao Xin 1, Ewan Gray 2, Jose Antonio Robles-Zurita 1, Houra Haghpanahan 1, Robert Heggie 1, Ciaran Kohli-Lynch 1, Andrew Briggs 3, David McAllister 4, Kenny Lawson 5, Jim Lewsey 1
 
 Affiliations: 1 Health Economics and Health Technology Assessment (HEHTA), Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK. 2. University of Edinburgh. 3. Department of Health Services Research and Policy, London School of Hygiene and Tropical Medicine, London, UK. 4. Public Health, Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK. 5. Translational Health Research Institute. Western Sydney University.
+
+We would be very grateful to anyone who sends constructive feedback and suggestions. Please send any feedback to Dr Yiqiao Xin yiqiao.xin@glasgow.ac.uk or Prof Jim Lewsey jim.lewsey@glasgow.ac.uk .
