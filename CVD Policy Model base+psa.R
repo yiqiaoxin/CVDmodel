@@ -426,7 +426,7 @@
     
     
     ### 4.1 Set the No. of simulations
-    nrep=1000
+    nrep <- 1000
     
     
     ### 4.2 Set the variance/covariance matrix according to sex
