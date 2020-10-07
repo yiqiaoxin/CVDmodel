@@ -11,7 +11,7 @@
     ########### Option 1: loading from EXCEL ##############
     #######################################################
     
-    setwd("C:/Users/Yiqiao/OneDrive - University of Glasgow/Ongoing project/Converting CVD model to R/Final/Codes/Version1_generic R functions_ Ewqiao") #set working directory
+    setwd("C:/Users/...") #set working directory
     # getwd()
     
     library(readxl)
