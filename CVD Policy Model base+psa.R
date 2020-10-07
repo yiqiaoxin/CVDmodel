@@ -1,5 +1,3 @@
-    setwd("C:/Users/Yiqiao/OneDrive - University of Glasgow/Ongoing project/Converting CVD model to R/Final/Codes/Version1_generic R functions_ Ewqiao") #set working directory
-    # getwd()
 
     library(dplyr)
     library(tidyr)
@@ -530,14 +528,14 @@
     # plot
     ggplot(psa_result,aes(x=Incre_QALY, y=Incre_cost)) +
       geom_point(colour="violetred4") + 
-      ylab("Cost (£)") +
+      ylab("Cost (Â£)") +
       xlab("QALY") +
       geom_hline(yintercept = 0) +
       geom_vline(xintercept = 0) +
       xlim(xlim$min, xlim$max) +
       ylim(ylim$min, ylim$max) +
       geom_abline(aes (intercept = 0, slope = 20000, color= "blue"),linetype="dashed") +
-      scale_color_identity(labels=c("£20k"), guide="legend")
+      scale_color_identity(labels=c("Â£20k"), guide="legend")
 
     
     ### 4.6 plot CEAC
@@ -554,7 +552,7 @@
     ggplot(ceac,aes(x=x, y=y)) +
       geom_point(colour="violetred4") + 
       ylab("Probability for the intervention to be cost-effective") +
-      xlab("ICER threshold (£)") +
+      xlab("ICER threshold (Â£)") +
       geom_hline(yintercept = 0) +
       geom_vline(xintercept = 0) +
       xlim(0, 50000) +
