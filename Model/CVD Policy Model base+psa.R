@@ -1,4 +1,8 @@
-
+  # This Scottish Cardiovascular disease policy model is published in the following two papers:
+  # Lewsey JD, et al. A cardiovascular disease policy model that predicts life expectancy taking into account socioeconomic deprivation. Heart 2015;101:201-208. doi:10.1136/heartjnl-2014-305637.
+  # Lawson KD, et al. A cardiovascular disease policy model: part 2-preparing for economic evaluation and to assess health inequalities. Open Heart 2016;3:e000140. doi:10.1136/openhrt-2014-000140.
+  # The R code for this model was developed by Yiqiao Xin & Ewan Gray
+  # Date: 8 October 2020
 
     library(dplyr)
     library(tidyr)
