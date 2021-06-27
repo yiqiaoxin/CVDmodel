@@ -281,7 +281,7 @@
           }
       
           # post CBVD 
-          for (i in 1: 4){
+          for (i in 1: length(dec)){
             eqn <- as.numeric(secondary_event_inputs[secondary_event_inputs[,1] == secondary_event_CBVD[i],2:7])
             lp <- eqn[6]+eqn[5]*FH+eqn[4]*SIMD+eqn[3]*(age+j)+eqn[2]*coef_ct[,4]+eqn[1]*coef_ct[,2]
             prop <- pnorm(lp,0,1)
@@ -297,7 +297,7 @@
 
     ### 3.3 Sex specific utility values norm table                                            # This could be moved to the data input script.
     ut1 <- 1:(120+tm+tm)                                                                      # Because the model have a maximum of 115 cycles, and assuming the largest age input into the model is 120.
-    if (sex <-1) {
+    if (sex == 1) {
       ut2_1 <- rep(0.831, times=24)
       ut2_2<-rep(c(0.8230,0.8200,0.8060,0.8010,0.7880,0.7740), each=10)
       ut2_3 <- rep(0.7740, times= 120+tm+tm-24-6*10) 
